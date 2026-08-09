@@ -32,7 +32,7 @@ success() { echo -e "${GREEN}${BOLD}[SUCCESS]${NC} $1"; }
 display_banner() {
     echo -e "${CYAN}${BOLD}"
     cat << 'EOF'
-╔══════════════════════════════════════════════════════════════╗
+╔═════════════════════════════════════════════════════════════╗
 ║                                                              ║
 ║     🚀 Claude Flow Setup Wizard v2.0.0 Alpha                ║
 ║     Generate CLAUDE.pre → Claude merges with CLAUDE.md       ║
@@ -42,7 +42,7 @@ display_banner() {
 ║     📝 Optional context input                               ║
 ║     🔗 Seamless Claude integration                           ║
 ║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
+╚═════════════════════════════════════════════════════════════╝
 EOF
     echo -e "${NC}"
 }
@@ -307,6 +307,14 @@ EOF
     success "✅ CLAUDE.pre file generated: $CLAUDE_PRE_FILE"
 }
 
+# Print the manual merge command (fallback when the automatic merge is unavailable or declined)
+print_manual_merge_command() {
+    echo
+    echo -e "${YELLOW}📝 Manual Claude Command Required:${NC}"
+    echo "   Please run this command manually:"
+    echo -e "${CYAN}   claude \"Please merge CLAUDE.pre, CLAUDE.md, and CLAUDE.md.OLD into an optimized CLAUDE.md for the $APP_TYPE project\"${NC}"
+}
+
 # Run Claude merge command
 run_claude_merge() {
     log "🤖 Running Claude merge command..."
@@ -315,8 +323,21 @@ run_claude_merge() {
     echo -e "${YELLOW}Command: claude \"take the CLAUDE.pre file and merge with CLAUDE.md and optimize for the build context contained in the claude.pre\"${NC}"
     echo
 
+    # Back up the existing CLAUDE.md before any merge touches it (CLAUDE.md.OLD, as documented in README)
+    if [ -f "CLAUDE.md" ]; then
+        cp CLAUDE.md CLAUDE.md.OLD
+        log "💾 Backed up existing CLAUDE.md to CLAUDE.md.OLD"
+    fi
+
     # Check if claude command is available
     if command -v claude >/dev/null 2>&1; then
+        # Ask for consent before running Claude with permission checks disabled
+        read -r -p "Run automatic merge via Claude CLI? This uses --dangerously-skip-permissions. [y/N] " merge_choice
+        if [[ ! "$merge_choice" =~ ^[Yy]([Ee][Ss])?$ ]]; then
+            warn "⚠️  Automatic merge skipped (CLAUDE.pre kept for manual merge)"
+            print_manual_merge_command
+            return 0
+        fi
         log "🚀 Executing Claude merge command..."
 
         # Run the claude command to merge all files
@@ -352,10 +373,7 @@ The final CLAUDE.md should be production-ready and optimized for this specific p
 
     else
         warn "⚠️  Claude CLI not found in PATH"
-        echo
-        echo -e "${YELLOW}📝 Manual Claude Command Required:${NC}"
-        echo "   Please run this command manually:"
-        echo -e "${CYAN}   claude \"Please merge CLAUDE.pre, CLAUDE.md, and CLAUDE.md.OLD into an optimized CLAUDE.md for the $APP_TYPE project\"${NC}"
+        print_manual_merge_command
         echo
         echo -e "${YELLOW}💡 To install Claude CLI:${NC}"
         echo "   npm install -g @anthropic-ai/claude-code"
