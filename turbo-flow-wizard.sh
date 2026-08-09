@@ -32,7 +32,7 @@ success() { echo -e "${GREEN}${BOLD}[SUCCESS]${NC} $1"; }
 display_banner() {
     echo -e "${CYAN}${BOLD}"
     cat << 'EOF'
-╔═════════════════════════════════════════════════════════════╗
+╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
 ║     🚀 Claude Flow Setup Wizard v2.0.0 Alpha                ║
 ║     Generate CLAUDE.pre → Claude merges with CLAUDE.md       ║
@@ -42,7 +42,7 @@ display_banner() {
 ║     📝 Optional context input                               ║
 ║     🔗 Seamless Claude integration                           ║
 ║                                                              ║
-╚═════════════════════════════════════════════════════════════╝
+╚══════════════════════════════════════════════════════════════╝
 EOF
     echo -e "${NC}"
 }
