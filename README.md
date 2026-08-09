@@ -145,11 +145,13 @@ project/
 
 ### Automatic Merge (Recommended)
 
-If the Claude CLI is installed, the wizard automatically executes:
+If the Claude CLI is installed, the wizard asks for confirmation first — `Run automatic merge via Claude CLI? This uses --dangerously-skip-permissions. [y/N]` (default No) — and only then executes:
 
 ```bash
 claude --dangerously-skip-permissions "Please merge CLAUDE.pre, CLAUDE.md, and CLAUDE.md.OLD into an optimized CLAUDE.md"
 ```
+
+Note that `--dangerously-skip-permissions` lets Claude edit files without per-action permission prompts, which is why the merge never runs without your explicit consent; answering No prints the manual merge command instead.
 
 The merge process:
 1. **Preserves** critical configurations from all three files
