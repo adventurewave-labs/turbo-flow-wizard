@@ -1,4 +1,15 @@
-# Turbo Flow Wizard 
+# Turbo Flow Wizard
+
+## 🎬 Demo
+
+![Turbo Flow Wizard demo](https://raw.githubusercontent.com/marcuspat/marcuspat/main/demos/turbo-flow-wizard-demo.gif)
+
+A real, unedited run of `turbo-flow-wizard.sh`: Web Application → React + Rust +
+PostgreSQL → SPARC → Docker / Testing / Swarm orchestration → generated
+`CLAUDE.pre` → declined the Claude CLI auto-merge (default `[y/N]`). Nothing
+mocked. Recorded with [VHS](https://github.com/charmbracelet/vhs) from
+`demo/demo.tape` in this repo.
+
 ## Overview
 
 The `turbo-flow-wizard.sh` script is an interactive setup wizard that generates project-specific configuration files for Claude integration. It guides users through a series of questions about their project and automatically generates a `CLAUDE.pre` file that can be merged with existing `CLAUDE.md` configuration.
