@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="turbo-flow-wizard — animated banner" width="100%"></p>
+
 # Turbo Flow Wizard
 
 ## 🎬 Demo

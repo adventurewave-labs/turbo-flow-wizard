@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="turbo-flow-wizard — turbo-flow-wizard">
+<title>turbo-flow-wizard</title>
+<defs>
+<radialGradient id="aur1"><stop offset="0" stop-color="#ec4899" stop-opacity="0.50"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+<radialGradient id="aur2"><stop offset="0" stop-color="#f97316" stop-opacity="0.45"/><stop offset="1" stop-color="#f97316" stop-opacity="0"/></radialGradient>
+<radialGradient id="orb"><stop offset="0" stop-color="#f472b6" stop-opacity="0.9"/><stop offset="0.55" stop-color="#f472b6" stop-opacity="0.25"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+<linearGradient id="tgrad" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.6" stop-color="#ffffff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+<linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.45"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="hglow" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.30"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+<filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5"/></filter>
+<filter id="glow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1200" height="400" fill="#04060c"/>
+<ellipse cx="250" cy="120" rx="360" ry="190" fill="url(#aur1)" filter="url(#soft)">
+<animateTransform attributeName="transform" type="translate" values="0 0; 70 24; -40 12; 0 0" dur="26s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="960" cy="150" rx="400" ry="210" fill="url(#aur2)" filter="url(#soft)">
+<animateTransform attributeName="transform" type="translate" values="0 0; -60 18; 34 -12; 0 0" dur="32s" repeatCount="indefinite"/>
+</ellipse>
+<g><circle cx="371" cy="63" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="4.38s" begin="-0.21s" repeatCount="indefinite"/></circle>
+<circle cx="821" cy="74" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.65s" begin="-3.43s" repeatCount="indefinite"/></circle>
+<circle cx="404" cy="102" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.47s" begin="-3.12s" repeatCount="indefinite"/></circle>
+<circle cx="913" cy="200" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.50s" begin="-1.33s" repeatCount="indefinite"/></circle>
+<circle cx="1022" cy="67" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="4.57s" begin="-1.16s" repeatCount="indefinite"/></circle>
+<circle cx="481" cy="194" r="1" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.31s" begin="-2.59s" repeatCount="indefinite"/></circle>
+<circle cx="1146" cy="90" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.87s" begin="-3.16s" repeatCount="indefinite"/></circle>
+<circle cx="300" cy="184" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.91s" begin="-3.98s" repeatCount="indefinite"/></circle>
+<circle cx="1059" cy="130" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="4.56s" begin="-4.40s" repeatCount="indefinite"/></circle>
+<circle cx="357" cy="118" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.58s" begin="-1.91s" repeatCount="indefinite"/></circle>
+<circle cx="42" cy="109" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.88s" begin="-3.10s" repeatCount="indefinite"/></circle>
+<circle cx="166" cy="210" r="1" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.23s" begin="-1.78s" repeatCount="indefinite"/></circle>
+<circle cx="965" cy="189" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.64s" begin="-3.20s" repeatCount="indefinite"/></circle>
+<circle cx="1151" cy="50" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.25s" begin="-2.51s" repeatCount="indefinite"/></circle>
+<circle cx="517" cy="48" r="1" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.83s" begin="-0.68s" repeatCount="indefinite"/></circle>
+<circle cx="815" cy="105" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="4.57s" begin="-2.54s" repeatCount="indefinite"/></circle>
+<circle cx="463" cy="88" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.31s" begin="-4.07s" repeatCount="indefinite"/></circle>
+<circle cx="700" cy="48" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.71s" begin="-3.06s" repeatCount="indefinite"/></circle>
+<circle cx="695" cy="35" r="1" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.46s" begin="-3.95s" repeatCount="indefinite"/></circle>
+<circle cx="103" cy="210" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.38s" begin="-2.81s" repeatCount="indefinite"/></circle>
+<circle cx="97" cy="27" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.94s" begin="-3.16s" repeatCount="indefinite"/></circle>
+<circle cx="662" cy="97" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.84s" begin="-3.66s" repeatCount="indefinite"/></circle>
+<circle cx="67" cy="188" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.48s" begin="-1.34s" repeatCount="indefinite"/></circle>
+<circle cx="610" cy="202" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.59s" begin="-0.97s" repeatCount="indefinite"/></circle>
+<circle cx="246" cy="159" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.90s" begin="-3.53s" repeatCount="indefinite"/></circle>
+<circle cx="101" cy="136" r="1" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.74s" begin="-1.71s" repeatCount="indefinite"/></circle></g>
+<rect x="0" y="236" width="1200" height="130" fill="url(#hglow)">
+<animate attributeName="opacity" values="0.45;0.9;0.45" dur="7s" repeatCount="indefinite"/>
+</rect>
+<circle cx="600" cy="242" r="90" fill="url(#orb)">
+<animate attributeName="r" values="78;110;78" dur="6s" repeatCount="indefinite"/>
+</circle>
+<path d="M600 240 L-150 400 M600 240 L0 400 M600 240 L150 400 M600 240 L300 400 M600 240 L450 400 M600 240 L600 400 M600 240 L750 400 M600 240 L900 400 M600 240 L1050 400 M600 240 L1200 400 M600 240 L1350 400" stroke="#9d174d" stroke-width="1.3" opacity="0.55" fill="none" stroke-dasharray="12 16">
+<animate attributeName="stroke-dashoffset" values="0;-56" dur="0.9s" repeatCount="indefinite"/>
+</path>
+<path d="M0 252 H1200 M0 268 H1200 M0 290 H1200 M0 318 H1200 M0 352 H1200 M0 392 H1200" stroke="#9d174d" stroke-width="1" opacity="0.35" fill="none"/>
+<circle cx="600" cy="241" r="4" fill="#22d3ee" filter="url(#glow2)">
+<animate attributeName="opacity" values="0.6;1;0.6" dur="2.6s" repeatCount="indefinite"/>
+</circle>
+<rect x="-260" y="-90" width="170" height="580" fill="url(#beam)" opacity="0.10" filter="url(#soft)" transform="rotate(14)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="-350 0;1750 0" dur="7s" repeatCount="indefinite"/>
+</rect>
+<rect x="-260" y="-90" width="170" height="580" fill="url(#beam)" opacity="0.07" filter="url(#soft)" transform="rotate(14)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="-350 0;1750 0" dur="7s" begin="-3.4s" repeatCount="indefinite"/>
+</rect>
+<text x="600" y="66" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="6" fill="#22d3ee" opacity="0.85">ADVENTUREWAVE-LABS · TURBO-FLOW-WIZARD</text>
+<text x="600" y="152" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="1" fill="#22d3ee" opacity="0.55" filter="url(#glow2)">turbo-flow-wizard</text>
+<text x="600" y="152" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="1" fill="url(#tgrad)">turbo-flow-wizard</text>
+<text x="600" y="198" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="19" letter-spacing="0.4" fill="#a8b3c4">Interactive setup wizard that generates project-specific CLAUDE.md files.</text>
+<text x="600" y="224" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="19" letter-spacing="0.4" fill="#a8b3c4">12 app types, 7 methodologies, 19 feature sets.</text>
+
+<g transform="translate(600,308)">
+
+<g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" text-anchor="middle">
+<rect x="-460" y="-58" width="130" height="30" rx="8" fill="#0d1117" stroke="#262d38"/><text x="-395" y="-38" fill="#8b98a5">react+rust</text>
+<rect x="-460" y="-18" width="130" height="30" rx="8" fill="#0d1117" stroke="#262d38"/><text x="-395" y="2" fill="#8b98a5">sparc</text>
+<rect x="-460" y="22" width="130" height="30" rx="8" fill="#0d1117" stroke="#262d38"/><text x="-395" y="42" fill="#8b98a5">docker·swarm</text>
+<rect x="-460" y="-58" width="130" height="30" rx="8" fill="none" stroke="#22d3ee" stroke-width="2.5" filter="url(#glow)">
+<animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 40;0 80;0 0" keyTimes="0;0.33;0.66;0.99" dur="4.5s" repeatCount="indefinite"/>
+</rect>
+</g>
+<line x1="-300" y1="0" x2="-90" y2="0" stroke="#22d3ee" stroke-width="2.5" stroke-dasharray="7 7"><animate attributeName="stroke-dashoffset" values="0;-28" dur="0.7s" repeatCount="indefinite"/></line>
+<g>
+<rect x="-80" y="-58" width="200" height="130" rx="10" fill="#0d1117" stroke="#22d3ee" stroke-width="2" filter="url(#glow)"/>
+<text x="20" y="-34" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="14" fill="#7eeeff" text-anchor="middle">CLAUDE.md</text>
+<g stroke="#2c3a45" stroke-width="4" stroke-linecap="round">
+<line x1="-60" y1="-14" x2="60" y2="-14" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.2" dur="4.5s" repeatCount="indefinite"/></line>
+<line x1="-60" y1="2" x2="40" y2="2" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.4" dur="4.5s" repeatCount="indefinite"/></line>
+<line x1="-60" y1="18" x2="52" y2="18" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.6" dur="4.5s" repeatCount="indefinite"/></line>
+<line x1="-60" y1="34" x2="30" y2="34" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.8" dur="4.5s" repeatCount="indefinite"/></line>
+<line x1="-60" y1="50" x2="48" y2="50" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.95" dur="4.5s" repeatCount="indefinite"/></line>
+</g>
+<animate attributeName="opacity" values="1;1;1;0;1" keyTimes="0;0.92;0.96;0.99;1" dur="4.5s" repeatCount="indefinite"/>
+</g>
+<g transform="translate(220,-30)" fill="#7eeeff" filter="url(#glow)">
+<path d="M0 -18 L4 -5 L17 0 L4 5 L0 18 L-4 5 L-17 0 L-4 -5 Z">
+<animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+</path>
+</g>
+<text x="300" y="30" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#7d8590" text-anchor="middle">vhs-recorded demo</text>
+
+</g>
+</svg>
