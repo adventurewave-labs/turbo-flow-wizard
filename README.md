@@ -2,6 +2,8 @@
 
 # Turbo Flow Wizard
 
+**A developer tool for the Claude ecosystem:** an interactive wizard that interviews your project and generates the config your coding agent needs — `CLAUDE.md` / `CLAUDE.pre` tailored to your stack and methodology, in one run instead of an afternoon of hand-tuning. Part of the [Turbo Flow](https://github.com/marcuspat/turbo-flow) family.
+
 ## 🎬 Demo
 
 ![Turbo Flow Wizard demo](https://raw.githubusercontent.com/marcuspat/marcuspat/main/demos/turbo-flow-wizard-demo.gif)
