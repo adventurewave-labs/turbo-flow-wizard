@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adventurewave-labs.github.io/turbo-flow-wizard/sitemap.xml
