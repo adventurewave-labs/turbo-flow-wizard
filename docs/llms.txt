@@ -1,0 +1,10 @@
+# turbo-flow-wizard
+
+> Interactive setup wizard that generates project-specific CLAUDE.md configuration files for Claude Code integration. Supports 12 app types, 7 development methodologies, and 19 feature sets.
+
+turbo-flow-wizard is maintained by Adventure Wave Labs (The lab for agentic developer tooling).
+
+## Links
+
+- [Landing page](https://adventurewave-labs.github.io/turbo-flow-wizard/): overview, features, FAQ
+- [Source code](https://github.com/adventurewave-labs/turbo-flow-wizard): README, issues, releases
